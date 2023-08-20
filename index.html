@@ -1,41 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width,
+initial-scale=1.0">  
+<link rel="stylesheet" href="index.css">
 <title>PS Ravn</title>
 </head>
-<body>
 
-<nav class="navbar">
-  <div class="navbar__container">
-    <a href="/" id="navbar__logo">Victoria L. R. Klausen</a>
-    <div class="navbar__toggle" id="mobile-menu"> 
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
+<body>
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="/" id="navbar__logo">Victoria L. R. Klausen</a>
+      <div class="navbar__toggle" id="mobile-menu"> 
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="/" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/projects.html" class="navbar__links">Projects</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/cv.html" class="navbar__links">CV</a>
+        </li>
+        <li class="item">
+          <a href="/contact.html" class="navbar__links">Contact</a>
+        </li>
+      </ul>
     </div>
-    <ul class="navbar__menu">
-      <li class="navbar__item">
-        <a href="/" class="navbar__links">Home</a>
-      </li>
-      <li class="navbar__item">
-        <a href="/projects.html" class="navbar__links">Projects</a>
-      </li>
-      <li class="navbar__item">
-        <a href="/CV.html" class="navbar__links">CV</a>
-      </li>
-      <li class="navbar__btn">
-        <a href="/" class="button">Placeholder</a>
-      </li>
-    </ul>
+  </nav>
+
+
+<div class="row">
+  <div class="leftcolumn">
+  <div class="main">
+    <div class="main__container">
+      <div class="main__content">
+        <h1>Powershell &</h1>
+        <h2>Programming</h2>
+        <p>About me: <br>I am an IT student with an interest for
+        scripting in powershell and random coding. <br> An example of this
+        is this website I made, just to see if I could. <br><br> Feel free to take a look around my first website.
+        </p>
+      </div> 
+    </div> 
   </div>
-</nav>
+</div> 
+
+<div class="rightcolumn"> 
+  <div class="main">
+    <div class="main__container">
+      <div class="main__content">
+        <div class="main__img--container">
+          <img src="images/portrait.PNG" alt="pic" id="main__img">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
 
 <script src="app.js"></script>
-
-<h1>PS4Life</h1>
-<p>Victoria aka mini juhl er sej</p>
-
 </body>
 </html>
