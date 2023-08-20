@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "movieID": "2018",
+            "title": "10. Klasse",
+            "poster": "Viby Efterskole",
+            "place":"Nørre Åby"
+        },
+        {
+            "movieID": "2019",
+            "title": "1.G HTX",
+            "poster": "H. C. Ørsted Gymnasiet",
+            "place":"Lyngby"
+        },
+        {
+            "movieID": "2020",
+            "title": "GF. 2 - Data og kommunikation",
+            "poster": "Tradium",
+            "place":"Randers"
+        },
+        {
+            "movieID": "2020/2021",
+            "title": "HF enkeltfag",
+            "poster": "HF VUC Nord",
+            "place":"Aalborg"
+        },
+        {
+            "movieID": "2021/2022",
+            "title": "HF enkeltfag",
+            "poster": "HF Efterslægten",
+            "place":"København"
+        }
+    ]
+}
