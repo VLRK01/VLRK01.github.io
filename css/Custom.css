@@ -20,6 +20,9 @@ h3 {
     font-size: 2rem;
 }
 
+.h3__icons {
+    width: 2.5rem;
+}
 .img-fluid {
     max-width: 100%;
     height: 100px;
